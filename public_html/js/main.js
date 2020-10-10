@@ -10,7 +10,7 @@ $(document).ready(function(){
             let animationName = $(this).attr('data-animation');
             let delay = $(this).attr('data-delay');
             
-            if(position < windowHeight + scroll - 200){
+            if(position < windowHeight + scroll){
                 $(this).addClass(animationName);
                 $(this).css('animation-delay', delay)
             }
