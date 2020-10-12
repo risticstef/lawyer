@@ -38,3 +38,14 @@ $dark-services-bg: $dark-blue;
         }
     }
 }
+
+// service content
+.service-content{
+    padding: 50px 0;
+}
+
+@media(min-width: 992px){
+    .service-content{
+        padding: 107px 0;
+    }
+}
